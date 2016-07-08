@@ -1,6 +1,9 @@
-
 ## Downloaded from http://www.hockey-reference.com/play-index/pgl_finder.cgi?request=1&match=game&year_min=2016&year_max=2016&season_start=1&season_end=-1&rookie=N&age_min=0&age_max=99&team_id=DET&is_playoffs=N&series_game_min=1&series_game_max=7&team_game_min=1&team_game_max=84&player_game_min=1&player_game_max=9999&pos=S&order_by=date_game&order_by_asc=Y
 ## Click "Share & More" -> "Get as Excel Workbook" which exports as csv for some reason...
+
+require(shiny)
+require(ggplot2)
+require(ggthemes)
 
 orderNames <- function(playerData){
      
